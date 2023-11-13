@@ -2,24 +2,28 @@ body {
     background-color: #1F2B46;
 }
 
+nav { 
+    display: flex;
+}
+
+nav li, ul{
+    color: white;
+    list-style: none;
+    text-align: center;
+    padding: 14px 16px;
+    display: inline;
+}
+
+.title {
+    padding-left: 20%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 .title h1, h4, li {
     color: white;
 }
 
-nav { 
-    overflow: hidden;
-}
-
-nav a {
-    color: white;
-
-}
-
-nav li {
-    color: white;
-    list-style: none;
-    text-align: center;
-}
 
 .general_info {
     background-color: white;
@@ -32,6 +36,15 @@ nav li {
     padding-top: 5%;
 }
 
+.footer li{
+    list-style: none;
+}
+
+.align_left {
+    float: left;
+    text-align: left;
+}
+
 #services_button {
     margin: 10px;
     background-color: #1F2B46;
@@ -40,6 +53,21 @@ nav li {
     border-radius: 6px;
 }
 
-.footer li{
-    list-style: none;
+#logo {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding-top: 0px;
+}
+
+#logo li {
+    padding: 0%;
+}
+
+#contact_table {
+    width: 100%;
+}
+
+#contact_list {
+    float: right;
 }
