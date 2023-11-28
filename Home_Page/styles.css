@@ -7,33 +7,63 @@ nav {
 }
 
 nav li, ul{
-    color: white;
     list-style: none;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0px 16px;
     display: inline;
 }
 
+nav li:active{
+    border-bottom: #DEB841;
+    border-width: 2px;
+}
+
+hr {
+    width: 40%;
+}
+
+footer {
+    margin: 20px;
+}
+
 .title {
-    padding-left: 20%;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: xx-large;
 }
 
 .title h1, h4, li {
     color: white;
 }
 
+.image_container {
+    display: flex;
+    justify-content: center;
+}
 
 .general_info {
     background-color: white;
     text-align: center;
 }
 
+.nav_option {
+    color: #DEB841;
+    font-weight: 300;
+    font-size: large;
+}
+
 .general_info p{
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 5%;
+    font-size: large;
+    width: 40%;
+    margin: 7px 7px;
+}
+
+.general_info_text {
+    display: flex;
+    justify-content: center;
 }
 
 .footer li{
@@ -45,12 +75,23 @@ nav li, ul{
     text-align: left;
 }
 
+#general_info_sec_1 {
+    padding-top: 2%;
+    padding-bottom: 2px;
+}
+
+#general_info_sec_2 {
+    padding-top: 0px;
+    padding-bottom: 2px;
+}
+
 #services_button {
-    margin: 10px;
+    margin: 20px;
     background-color: #1F2B46;
     color: white;
     padding: 10px;
     border-radius: 6px;
+    font-size: medium;
 }
 
 #logo {
@@ -60,8 +101,12 @@ nav li, ul{
     padding-top: 0px;
 }
 
-#logo li {
-    padding: 0%;
+#logo_name {
+    font-size: 30px;
+}
+
+#logo_descr {
+    font-size: 23px;
 }
 
 #contact_table {
@@ -70,4 +115,11 @@ nav li, ul{
 
 #contact_list {
     float: right;
+}
+
+#brad_friesen_home {
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
 }
