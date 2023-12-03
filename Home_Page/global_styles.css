@@ -1,0 +1,99 @@
+body {
+    background-color: #1F2B46;
+    font-size: 16px;
+}
+
+nav { 
+    display: flex;
+}
+
+nav li, ul{
+    list-style: none;
+    text-align: center;
+    padding: 0px 20px;
+    display: inline;
+}
+
+nav li:active {
+    border-bottom: #DEB841;
+    border-width: 2px;
+}
+
+.nav_option:hover {
+    color: white;
+}
+
+.nav_option {
+    color: #DEB841;
+    font-weight: 300;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.nav_list{
+    padding-bottom: 10px;
+}
+
+.header {
+    font-size: 2.0vw;
+}
+
+.sub-text {
+    /* font-size: 1.3rem; */
+    font-size: clamp(12px, 4vw, 20px);
+}
+
+.image_container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    /* font-size: medium; */
+    font-size: clamp(12px, 4vw, 16px);
+}
+
+.align_left {
+    float: left;
+    text-align: left;
+}
+
+footer {
+    margin: 20px;
+}
+
+.footer li{
+    list-style: none;
+}
+
+.contact_table {
+    width: 100%;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding-top: 0px;
+}
+
+#logo_name {
+    font-size: 30px;
+}
+
+#logo_descr {
+    font-size: 23px;
+}
+
+#contact_list {
+    float: right;
+}
+
+#contact-me {
+    text-align: center;
+    font-size: clamp(12px, 4vw, 25px);
+}
+
