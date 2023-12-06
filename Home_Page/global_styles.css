@@ -15,6 +15,10 @@ nav li, ul{
     color: white;
 }
 
+img {
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.2);
+}
+
 a:link { 
     text-decoration: none; 
 }
@@ -49,7 +53,12 @@ a:active {
 
 .sub-text {
     /* font-size: 1.3rem; */
-    font-size: clamp(12px, 4vw, 20px);
+    font-size: clamp(10px, 4vw, 20px);
+    font-weight: 400;
+}
+
+.sub_content_heading {
+    font-size: 1.7vw;
 }
 
 .image_container {

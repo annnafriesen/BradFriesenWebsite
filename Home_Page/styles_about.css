@@ -1,13 +1,58 @@
 img {
-    width: 20%;
+    width: 70%;
 }
 
 .about_brad {
-    width: 75%;
+    /* width: 75%; */
+    box-sizing: border-box;
     display: inline-block;
     margin: 5% 15%;
 }
 
+.about_image {
+    width: 33.3%;
+    float: left;
+    justify-content: center;
+    display: flex;
+}
+
 .about_brad_text {
-    width: 50%;
+    width: 66.6%;
+    float: left;
+    color: white;
+    font-weight: 100;
+}
+
+.sub_content_line {
+    border-left: 2px solid #DEB841;
+    margin: 5% 15% 0% 15%;
+}
+
+.sub_content .sub_content_heading {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    font-weight: 500;
+}
+
+.sub_sub_content {
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+.content {
+    padding: 2% 10%;
+    width: 75%;
+}
+
+#commitment {
+    background-color: #F0EFEF;
+}
+
+#bc-based {
+    background-color: #366E88;
+    color: #F0EFEF;
+}
+
+#contact {
+    width: 30%;
 }
