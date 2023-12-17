@@ -12,11 +12,12 @@ nav li, ul{
     text-align: center;
     padding: 0px 20px;
     display: inline;
-    color: white;
 }
 
 img {
-    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.2); */
+    /* box-shadow: 7px 7px 0px rgba(222, 184, 65, 1); */
+    box-shadow: 7px 7px 8px rgb(17, 22, 37);
 }
 
 a:link { 
@@ -48,17 +49,19 @@ a:active {
 }
 
 .header {
-    font-size: 2.0vw;
+    font-size: 2.5vw;
+    font-weight: 520;
+    margin-top: 0%;
 }
 
 .sub-text {
-    /* font-size: 1.3rem; */
-    font-size: clamp(10px, 4vw, 20px);
+    font-size: clamp(15px, 4vw, 22px);
     font-weight: 400;
 }
 
 .sub_content_heading {
     font-size: 1.7vw;
+    font-weight: 550;
 }
 
 .image_container {
@@ -68,7 +71,7 @@ a:active {
 
 .button {
     margin: 20px;
-    padding: 10px;
+    padding: 10px 30px;
     border-radius: 6px;
     font-size: clamp(12px, 4vw, 16px);
     transition: transform 1s ease;
@@ -78,6 +81,11 @@ a:active {
 .align_left {
     float: left;
     text-align: left;
+}
+
+.align_right {
+    float: right;
+    text-align: right;
 }
 
 .footer li{
@@ -93,6 +101,7 @@ a:active {
     flex-direction: column;
     float: left;
     padding-top: 0px;
+    color: white;
 }
 
 #logo_name {
@@ -117,8 +126,6 @@ a:active {
     padding: 20px;
     width: 35%;
     color: white;
-    /* background: rgb(222,184,65);
-    background: linear-gradient(90deg, rgba(222,184,65,1) 24%, rgba(31,43,70,1) 100%); */
 }
 
 #contact-me h4 {

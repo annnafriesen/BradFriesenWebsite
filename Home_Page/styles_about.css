@@ -6,7 +6,8 @@ img {
     /* width: 75%; */
     box-sizing: border-box;
     display: inline-block;
-    margin: 5% 15%;
+    margin: 10% 10%;
+    height: 51vh;
 }
 
 .about_image {
@@ -17,31 +18,28 @@ img {
 }
 
 .about_brad_text {
-    width: 66.6%;
+    width: 60%;
     float: left;
-    color: white;
+    color: #dedede;
     font-weight: 100;
-}
-
-.sub_content_line {
-    border-left: 2px solid #DEB841;
-    margin: 5% 15% 0% 15%;
 }
 
 .sub_content .sub_content_heading {
     margin-bottom: 0%;
     padding-bottom: 0%;
-    font-weight: 500;
 }
 
-.sub_sub_content {
-    margin-top: 0%;
-    padding-top: 0%;
+#sub_content_text_container {
+    padding: 4%;
 }
 
-.content {
-    padding: 2% 10%;
-    width: 75%;
+#sub_content_text_container * {
+    padding: 0%;
+    margin: 0%;
+}
+
+.content p {
+    width: 50%;
 }
 
 #commitment {
@@ -55,4 +53,35 @@ img {
 
 #contact {
     width: 30%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    text-align: center;
+    color: #F0EFEF;
+}
+
+.center_content {
+    display: flex;
+    justify-content: center;
+}
+
+#contact_me_button {
+    background-color: #DEB841;
+}
+
+#sub_content_line {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    left: 50px;
+    border-left: solid 2px #DEB841;
+}
+
+#line_and_text_container {
+    position: relative;
+}
+
+.about_sections {
+    position: relative;
+    z-index: 1;
 }
