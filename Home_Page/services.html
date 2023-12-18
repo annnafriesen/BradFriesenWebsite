@@ -28,11 +28,18 @@
 <body>
     <div class="services_title">
         <div class="services_text">
-            <p class="header"> Services </p>
+            <h2 class="header"> Services </h2>
             <p class="sub-text"> I have a community focused practice. As such, I provide affordable and practical advice
                 and services in a number of areas.
             </p>
-            <button class="button" id="areas_of_practice_button">My Areas of Practice</button>
+            <a href="#services_grid">
+                <button class="button" id="areas_of_practice_button"> My Areas of Practice <svg width="100%" height="100%"
+                        class="button_border">
+                        <polyline points="1,1 285,1 285,51 1,51 1,1" class="bg-line" />
+                        <!-- <polyline points="179,1 (TL) 179,59 (BL) 1,59 (BR) 1,1 (TR) 179,1 (TL)" class="bg-line" /> -->
+                    </svg>
+                </button>
+            </a>
         </div>
         <div class="services_image image_container">
             <img src="../Images/bfservices.png" alt="Brad Friesen, Profile">
@@ -42,17 +49,17 @@
     <div id="services_grid">
         <div id="wills">
             <h2 class="header"> Wills, Estates and Representations</h2>
-            <ul class="sub-text services_description"> 
+            <ul class="sub-text services_description">
                 <li> Wills </li>
-                <li>Estates & Trusts</li> 
+                <li>Estates & Trusts</li>
                 <li>Perservation Strategies</li>
-                <li> Power of Attorney</li> 
+                <li> Power of Attorney</li>
                 <li> Representation Agreements (Health Care Appointments)</li>
             </ul>
         </div>
         <div id="real_estate">
             <h2 class="header"> Real Estate</h2>
-            <ul class="sub-text services_description"> 
+            <ul class="sub-text services_description">
                 <li> Purchase and Sale</li>
                 <li> Mortgage Refinance</li>
                 <li> Land Titles document reviews </li>
@@ -62,7 +69,7 @@
         </div>
         <div id="general">
             <h2 class="header"> General Services </h2>
-            <ul class="sub-text services_description"> 
+            <ul class="sub-text services_description">
                 <li> Notarizations </li>
                 <li> Affidavits </li>
                 <li> Certification of Documents </li>
@@ -72,7 +79,7 @@
         </div>
         <div id="business">
             <h2 class="header"> Business & Company </h2>
-            <ul class="sub-text services_description"> 
+            <ul class="sub-text services_description">
                 <li> Incorporation </li>
                 <li> Contract Reviews </li>
                 <li> Purchase & Sales Transactions </li>

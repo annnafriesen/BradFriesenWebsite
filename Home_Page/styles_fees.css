@@ -1,0 +1,91 @@
+.fees_title {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 10% 10%;
+    height: 51vh;
+}
+
+.fees_image {
+    float: inline-end;
+    width: 60%;
+    /* justify-content: center;
+    display: flex; */
+}
+
+.fees_text {
+    width: 30%;
+    float: left;
+    color: #dedede;
+    font-weight: 100;
+}
+
+img {
+    width: 60%;
+}
+
+.sub_content .sub_content_heading {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+#sub_content_text_container {
+    padding: 4%;
+}
+
+#sub_content_text_container * {
+    padding: 0%;
+    margin: 0%;
+}
+
+.content p {
+    width: 50%;
+}
+
+#commitment {
+    background-color: #F0EFEF;
+}
+
+#bc-based {
+    background-color: #366E88;
+    color: #F0EFEF;
+}
+
+.center_content {
+    display: flex;
+    justify-content: center;
+}
+
+#sub_content_line {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    left: 50px;
+    border-left: solid 2px #DEB841;
+}
+
+#line_and_text_container {
+    position: relative;
+}
+
+.about_sections {
+    position: relative;
+    z-index: 1;
+}
+
+ul {
+    color: #dedede;
+}
+
+#links_grid {
+    display: grid;
+    grid-template: auto / 20% 20%;
+    margin: 3% 0% 0% 0%;
+    gap: 3%;
+    line-height: 150%;
+}
+
+a {
+    color: #dedede;
+    font-size: clamp(15px, 4vw, 20px);
+}
