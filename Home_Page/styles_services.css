@@ -1,7 +1,7 @@
 .services_title {
     box-sizing: border-box;
     display: inline-block;
-    margin: 10% 10%;
+    margin: 10% 15%;
     height: 49vh;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .services_text {
-    width: 30%;
+    width: 33.3%;
     float: left;
     color: #dedede;
     font-weight: 100;
@@ -21,6 +21,7 @@
 
 img {
     width: 80%;
+    float: right;
 }
 
 #areas_of_practice_button {
@@ -29,8 +30,8 @@ img {
     outline: none;
     transition: 1s ease-in-out;
     color: #dedede;
-    width: 20%;
-    height: 7%;
+    width: 286px;
+    height: 52px;
     position: absolute;
 }
 
@@ -70,6 +71,10 @@ img {
 
 #services_grid > li{
     color: #121212;
+}
+
+#services_grid ul {
+    list-style: none;
 }
 
 #services_grid h2 {

@@ -11,11 +11,14 @@ nav {
     display: flex;
 }
 
-nav li, ul{
-    list-style: none;
-    text-align: center;
+#nav_bar li, ul{
     padding: 0px 20px;
     display: inline;
+}
+
+#nav_bar ul {
+    list-style: none;
+    text-align: center;
 }
 
 img {
@@ -140,4 +143,9 @@ a:active {
 
 #location_icon {
     transform: scale(2.5, 2.5);
+}
+
+.center_content {
+    display: flex;
+    justify-content: center;
 }
