@@ -9,6 +9,7 @@ body {
 
 nav { 
     display: flex;
+    
 }
 
 #nav_bar li, ul{
@@ -23,8 +24,9 @@ nav {
 
 img {
     /* box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.2); */
-    /* box-shadow: 7px 7px 0px rgba(222, 184, 65, 1); */
+    /* box-shadow: 10px 10px 0px rgba(240,239,239, 0.75); */
     box-shadow: 7px 7px 8px rgb(17, 22, 37);
+    border: solid 1px #000000;
 }
 
 a:link { 
@@ -109,7 +111,7 @@ a:active {
     flex-direction: column;
     float: left;
     padding-top: 0px;
-    color: white;
+    color: #F0EFEF;
 }
 
 #logo_name {

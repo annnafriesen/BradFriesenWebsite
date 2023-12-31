@@ -1,5 +1,5 @@
 .main_content {
-    margin: 10% 15%;   
+    margin: 5% 10%;   
     color: #dedede;
 }
 
@@ -8,7 +8,7 @@
 }
 
 img {
-    width: 70%;
+    width: 90%;
 }
 
 .about_office {
@@ -31,4 +31,59 @@ img {
     float: left;
     color: #dedede;
     font-weight: 100;
+    padding-left: 3%;
 }
+
+.map_container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 10% 0%;
+}
+
+.map_image_container {
+    position: absolute;
+}
+
+.map_text_container {
+    position: relative;
+    z-index: 1;
+    padding: 5% 10%;
+    background-color: #1F2B46;
+    border-radius: 15px;
+}
+
+#map_title {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 10%;
+}
+
+#map_title h2 {
+    margin: 0%;
+    color: #DEB841;
+    font-size: 2.0rem;
+}
+
+#contact_details ul {
+    list-style: none;
+    text-align: center;
+    color: #dedede;
+    margin: 0%;
+    padding-top: 10%;
+}
+
+#location_icon {
+    float: right;
+}
+
+#contact_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50vh;
+}
+
+.bottom_layer {
+    position: absolute;
+}
+
