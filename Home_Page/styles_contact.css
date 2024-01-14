@@ -24,6 +24,7 @@ img {
     float: left;
     justify-content: center;
     display: flex;
+    align-items: center;
 }
 
 .about_office_text {
@@ -80,10 +81,39 @@ img {
 #contact_grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 50vh;
+    /* height: 50vh; */
+}
+
+.contact_option_container {
+    position: relative;
 }
 
 .bottom_layer {
-    position: absolute;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
+
+.top_layer {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 50%;
+}
+
+.contact_option_heading {
+    font-size: clamp(20px, 4.5vw, 35px);;
+    font-weight: 550;
+    margin: 15px 0px 10px 0px;
+    padding: 0%;
+}
+
+.contact_option_info {
+    font-size: clamp(15px, 4.5vw, 25px);;
+    font-weight: 400;
+    margin: 0%;
+    padding: 0%;
+}
+
+
 
