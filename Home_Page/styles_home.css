@@ -25,6 +25,7 @@ hr {
 .general_info {
     background-color: white;
     text-align: center;
+    padding: 2% 0% 4% 0%;
 }
 
 .general_info p{
@@ -49,14 +50,20 @@ hr {
     padding-bottom: 2%;
 }
 
-#services_button {
+/* #services_button {
     background-color: #366E88;
     color: white;
-}
+} */
 
-#services_button:hover {
-    transform: scale(1.2, 1.2);
-    border-color: #1F2B46;
+#services_button {
+    background-color: #366E88;
+    border:1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+    color: #dedede;
+    width: 286px;
+    height: 52px;
+    position: absolute;
 }
 
 .image {

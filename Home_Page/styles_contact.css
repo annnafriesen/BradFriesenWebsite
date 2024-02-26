@@ -16,7 +16,7 @@ img {
     box-sizing: border-box;
     display: inline-block;
     margin: 10% 10%;
-    height: 51vh;
+    height: 50vh;
 }
 
 .contact_image {
@@ -39,7 +39,7 @@ img {
     position: relative;
     display: flex;
     align-items: center;
-    margin: 10% 0%;
+    margin: 15% 0% 0% 0%;
 }
 
 .map_image_container {

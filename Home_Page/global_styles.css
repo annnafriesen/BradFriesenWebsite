@@ -24,9 +24,9 @@ nav {
 
 img {
     /* box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.2); */
-    /* box-shadow: 10px 10px 0px rgba(240,239,239, 0.75); */
-    box-shadow: 7px 7px 8px rgb(17, 22, 37);
-    border: solid 1px #000000;
+    box-shadow: 15px 10px 0px rgba(240,239,239, 0.75);
+    border: solid 1px rgba(240,239,239);
+    /* box-shadow: 7px 7px 8px rgb(17, 22, 37); */
 }
 
 a:link { 
@@ -59,8 +59,8 @@ a:active {
 
 .header {
     /* font-size: 2.5vw; */
-    font-size: clamp(20px, 4.5vw, 27px);;
-    font-weight: 520;
+    font-size: clamp(20px, 4.5vw, 33px);;
+    font-weight: 530;
     margin-top: 0%;
 }
 
@@ -80,7 +80,7 @@ a:active {
 }
 
 .button {
-    margin: 20px;
+    margin: 40px;
     padding: 10px 30px;
     border-radius: 6px;
     font-size: clamp(12px, 4vw, 16px);
@@ -151,3 +151,29 @@ a:active {
     display: flex;
     justify-content: center;
 }
+
+.button_border {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 285 800;
+    stroke-dashoffset: 285;
+    transition: 1.2s ease-in-out;
+  }
+
+  button:hover {
+    transition: 1s ease-in-out;
+  }
+  
+ button:hover svg {
+    stroke-dashoffset: -800;
+  }
+
+  .button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
