@@ -25,6 +25,14 @@ img {
     float: right;
 }
 
+.grid_square {
+    transition: transform 0.5s;
+}
+
+.grid_square:hover {
+    transform: scale(1.04);
+}
+
 #areas_of_practice_button {
     background-color: var(--secondary-color);
     border:1px solid #91C9FF;
@@ -61,6 +69,7 @@ img {
     text-align: center;
     padding: 7%;
     gap: 20px;
+    perspective: 1000px;
 }
 
 #services_grid > div {
@@ -83,6 +92,7 @@ img {
 #services_grid h2 {
     padding-bottom: 0%;
     margin-bottom: 0%;
+    background-color: var(--secondary-color);
 }
 
 .teal_footer{
