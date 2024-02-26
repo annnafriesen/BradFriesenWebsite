@@ -47,7 +47,7 @@ img {
 }
 
 #bc-based {
-    background-color: #366E88;
+    background-color: var(--secondary-color);
     color: #F0EFEF;
 }
 
@@ -62,7 +62,7 @@ img {
     width: 80%;
     height: 100%;
     left: 50px;
-    border-left: solid 2px #DEB841;
+    border-left: solid 2px var(--tertiary-color);
 }
 
 #line_and_text_container {
@@ -93,7 +93,7 @@ a {
 
 
 #contact_button {
-    background-color: #366E88;
+    background-color: var(--secondary-color);
     border:1px solid #91C9FF;
     outline: none;
     transition: 1s ease-in-out;

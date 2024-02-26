@@ -4,7 +4,7 @@
 }
 
 .title_contact_container {
-    border-bottom: solid 2px #DEB841;;
+    border-bottom: solid 2px var(--tertiary-color);;
 }
 
 img {
@@ -50,7 +50,7 @@ img {
     position: relative;
     z-index: 1;
     padding: 5% 10%;
-    background-color: #1F2B46;
+    background-color: var(--main-color);
     border-radius: 15px;
 }
 
@@ -62,7 +62,7 @@ img {
 
 #map_title h2 {
     margin: 0%;
-    color: #DEB841;
+    color: var(--tertiary-color);
     font-size: 2.0rem;
 }
 

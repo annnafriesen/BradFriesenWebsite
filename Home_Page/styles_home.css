@@ -9,7 +9,7 @@ hr {
     font-size: 2.3vw;
     width: 30%;
     float: inline-start;
-    border-left: solid 2px #DEB841;
+    border-left: solid 2px var(--tertiary-color);
     line-height: 250%;
 }
 
@@ -56,7 +56,7 @@ hr {
 } */
 
 #services_button {
-    background-color: #366E88;
+    background-color: var(--secondary-color);
     border:1px solid #91C9FF;
     outline: none;
     transition: 1s ease-in-out;

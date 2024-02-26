@@ -47,7 +47,7 @@ img {
 }
 
 #bc-based {
-    background-color: #366E88;
+    background-color: var(--secondary-color);
     color: #F0EFEF;
 }
 

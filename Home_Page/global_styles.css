@@ -1,9 +1,16 @@
+:root {
+    --main-color: #1F2B46; 
+    --secondary-color: #1e556f; 
+    --tertiary-color: #DEB841;
+  }
+
 html {
     scroll-behavior: smooth;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body {
-    background-color: #1F2B46;
+    background-color: var(--main-color);
     font-size: 16px;
 }
 
@@ -54,7 +61,7 @@ a:active {
 
 .active {
     padding-bottom: 5px;
-    border-bottom: 2px solid #DEB841;
+    border-bottom: 2px solid var(--tertiary-color);
 }
 
 .header {
@@ -140,7 +147,7 @@ a:active {
 
 #contact-me h4 {
     padding-bottom: 10px;
-    border-bottom: 2px solid #DEB841;
+    border-bottom: 2px solid var(--tertiary-color);
 }
 
 #location_icon {
@@ -177,3 +184,4 @@ a:active {
     align-items: center;
     margin: 20px;
   }
+
