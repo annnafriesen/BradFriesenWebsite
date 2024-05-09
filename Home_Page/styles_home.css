@@ -13,7 +13,8 @@ hr {
     line-height: 250%;
 }
 
-.title h1, h4 {
+.title h1,
+h4 {
     color: white;
 }
 
@@ -28,7 +29,7 @@ hr {
     padding: 2% 0% 4% 0%;
 }
 
-.general_info p{
+.general_info p {
     padding-left: 10%;
     padding-right: 10%;
     width: 40%;
@@ -50,14 +51,9 @@ hr {
     padding-bottom: 2%;
 }
 
-/* #services_button {
-    background-color: #366E88;
-    color: white;
-} */
-
 #services_button {
     background-color: #366E88;
-    border:1px solid #91C9FF;
+    border: 1px solid #91C9FF;
     outline: none;
     transition: 1s ease-in-out;
     color: #dedede;
