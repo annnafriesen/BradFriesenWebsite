@@ -1,6 +1,6 @@
 :root {
-    --main-color: #1F2B46; 
-    --secondary-color: #1e556f; 
+    --main-color: #1F2B46;
+    --secondary-color: #1e556f;
     --tertiary-color: #DEB841;
 }
 
@@ -44,10 +44,15 @@ img {
     perspective: 1000px;
 }
 
-#services_grid > div {
+#services_grid>div {
     background-color: rgba(217, 217, 217, 1);
     color: #121212;
     padding: 4%;
+    transition: transform 1s ease;
+}
+
+#services_grid>div:hover {
+    transform: scale(1.05);
 }
 
 #services_grid>li {
