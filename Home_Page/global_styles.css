@@ -14,12 +14,13 @@ body {
     font-size: 16px;
 }
 
-nav { 
+nav {
     display: flex;
-    
+
 }
 
-#nav_bar li, ul{
+#nav_bar li,
+ul {
     padding: 0px 20px;
     display: inline;
 }
@@ -34,8 +35,8 @@ img {
     border: solid 1px rgba(240,239,239);
 }
 
-a:link { 
-    text-decoration: none; 
+a:link {
+    text-decoration: none;
 }
 
 a:visited {
@@ -64,7 +65,8 @@ a:active {
 
 .header {
     /* font-size: 2.5vw; */
-    font-size: clamp(20px, 4.5vw, 33px);;
+    font-size: clamp(20px, 4.5vw, 33px);
+    ;
     font-weight: 530;
     margin-top: 0%;
 }
@@ -85,11 +87,10 @@ a:active {
 }
 
 .button {
-    margin: 40px;
+    margin: 30px;
     padding: 10px 30px;
     border-radius: 6px;
     font-size: clamp(12px, 4vw, 16px);
-    transition: transform 1s ease;
 }
 
 
@@ -103,7 +104,7 @@ a:active {
     text-align: right;
 }
 
-.footer li{
+.footer li {
     list-style: none;
 }
 
@@ -127,11 +128,11 @@ a:active {
     font-size: 23px;
 }
 
-#contact_list{
+#contact_list {
     float: right;
 }
 
-#contact_list li{
+#contact_list li {
     color: #DEB841;
 }
 
@@ -157,29 +158,21 @@ a:active {
     justify-content: center;
 }
 
-.button_border {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    fill: none;
-    stroke: #fff;
-    stroke-dasharray: 285 800;
-    stroke-dashoffset: 285;
-    transition: 1.2s ease-in-out;
-  }
+.subheading-background {
+    background-color: #2D3C5A;
+    padding: 2%;
+}
 
-  button:hover {
-    transition: 1s ease-in-out;
-  }
-  
- button:hover svg {
-    stroke-dashoffset: -800;
-  }
+.subheading-inner-text {
+    padding: 3%;
+    text-align: center;
+    border-top: solid 0.2px #DEB841;
+    border-bottom: solid 0.2px #DEB841;
+}
 
-  .button_container {
+.button_container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px;
-  }
-
+}

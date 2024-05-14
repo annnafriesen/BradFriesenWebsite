@@ -66,7 +66,7 @@ img {
 
 #contact_me_button {
     background-color: #DEB841;
-    border:1px solid #91C9FF;
+    border: 1px solid #91C9FF;
     color: black;
     outline: none;
     transition: 1s ease-in-out;
@@ -95,8 +95,5 @@ img {
 
 .about_button {
     margin: 30px;
-}
-
-.about_button {
     padding-bottom: 60px;
 }

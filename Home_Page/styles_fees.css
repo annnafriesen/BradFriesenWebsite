@@ -1,26 +1,24 @@
 .fees_title {
     box-sizing: border-box;
     display: inline-block;
-    margin: 10% 15%;
+    margin: 10% 10%;
     height: 51vh;
 }
 
 .fees_image {
     float: inline-end;
-    width: 60%;
-    /* justify-content: center;
-    display: flex; */
+    width: 40%;
 }
 
 .fees_text {
-    width: 30%;
+    width: 50%;
     float: left;
     color: #dedede;
     font-weight: 100;
 }
 
 img {
-    width: 50%;
+    width: 40%;
     float: right;
 }
 
@@ -93,31 +91,8 @@ a {
 
 
 #contact_button {
-    background-color: var(--secondary-color);
-    border:1px solid #91C9FF;
+    background-color: #366E88;
+    border: 1px solid #91C9FF;
     outline: none;
-    transition: 1s ease-in-out;
     color: #dedede;
-    width: 286px;
-    height: 52px;
-    position: absolute;
 }
-
-.button_border {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    fill: none;
-    stroke: #fff;
-    stroke-dasharray: 285 800;
-    stroke-dashoffset: 285;
-    transition: 1.2s ease-in-out;
-  }
-
-  #contact_button:hover {
-    transition: 1s ease-in-out;
-  }
-  
-#contact_button:hover svg {
-    stroke-dashoffset: -800;
-  }
