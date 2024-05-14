@@ -9,7 +9,7 @@ hr {
     font-size: 2.3vw;
     width: 30%;
     float: inline-start;
-    border-left: solid 2px #DEB841;
+    border-left: solid 2px var(--tertiary-color);
     line-height: 250%;
 }
 
