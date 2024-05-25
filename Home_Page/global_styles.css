@@ -175,31 +175,3 @@ a:active {
     align-items: center;
     margin: 20px;
 }
-
-/* Initially hide the burger menu */
-#burger_menu {
-    display: none;
-}
-
-/* Styling for the burger menu lines */
-.line {
-    width: 30px;
-    height: 3px;
-    background-color: black;
-    margin: 5px;
-}
-
-/* Media query for small screens */
-@media screen and (max-width: 768px) {
-    #burger_menu {
-        display: block;
-        /* Show the burger menu */
-        cursor: pointer;
-        /* Change cursor to pointer on hover */
-    }
-
-    #nav_links {
-        display: none;
-        /* Hide the nav links */
-    }
-}
