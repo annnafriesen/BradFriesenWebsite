@@ -64,20 +64,18 @@ a:active {
 }
 
 .header {
-    /* font-size: 2.5vw; */
     font-size: clamp(20px, 4.5vw, 33px);
-    ;
     font-weight: 530;
     margin-top: 0%;
 }
 
 .sub-text {
-    font-size: clamp(16px, 4vw, 22px);
+    font-size: clamp(16px, 3vw, 22px);
     font-weight: 400;
 }
 
 .sub_content_heading {
-    font-size: 1.7vw;
+    font-size: clamp(18px, 3.5vw, 25px);
     font-weight: 550;
 }
 
@@ -176,4 +174,32 @@ a:active {
     justify-content: center;
     align-items: center;
     margin: 20px;
+}
+
+/* Initially hide the burger menu */
+#burger_menu {
+    display: none;
+}
+
+/* Styling for the burger menu lines */
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+    #burger_menu {
+        display: block;
+        /* Show the burger menu */
+        cursor: pointer;
+        /* Change cursor to pointer on hover */
+    }
+
+    #nav_links {
+        display: none;
+        /* Hide the nav links */
+    }
 }
