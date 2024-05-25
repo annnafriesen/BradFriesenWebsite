@@ -14,6 +14,8 @@ body {
     font-size: 16px;
 }
 
+/* *** NAV BAR *** */
+
 nav {
     display: flex;
 
@@ -28,11 +30,6 @@ ul {
 #nav_bar ul {
     list-style: none;
     text-align: center;
-}
-
-img {
-    box-shadow: 5px 5px 0px rgba(240, 239, 239, 0.75);
-    border: solid 1px rgba(240, 239, 239);
 }
 
 a:link {
@@ -62,6 +59,55 @@ a:active {
     padding-bottom: 5px;
     border-bottom: 2px solid var(--tertiary-color);
 }
+
+.burger-menu {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    float: right;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    transition: transform 0.3s ease;
+}
+
+.line:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.line:nth-child(3) {
+    bottom: 0;
+}
+
+
+.full-nav .burger-menu {
+    display: none;
+}
+
+/* make sure nav bar becomes responsive when screen size is <1063 px */
+@media screen and (max-width: 1063px) {
+    #nav_bar li:not(:first-child) {
+        display: none;
+    }
+
+    #nav_bar .burger-menu {
+        float: right;
+        display: block;
+    }
+}
+
+img {
+    box-shadow: 5px 5px 0px rgba(240, 239, 239, 0.75);
+    border: solid 1px rgba(240, 239, 239);
+}
+
 
 .header {
     font-size: clamp(20px, 4.5vw, 33px);
