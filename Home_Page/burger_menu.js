@@ -1,9 +1,9 @@
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
+function makeResponsive() {
+  var x = document.getElementById("nav_bar");
+  if (x.className === "full-nav") {
+    x.className = "responsive";
   } else {
-    x.className = "topnav";
+    x.className = "full-nav";
   }
 }
