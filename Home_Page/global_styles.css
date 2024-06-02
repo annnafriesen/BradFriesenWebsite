@@ -1,5 +1,6 @@
 :root {
     --main-color: #1F2B46;
+    --light-main: #2D3C5A;
     --secondary-color: #1e556f;
     --tertiary-color: #DEB841;
 }
@@ -196,9 +197,9 @@ img {
     margin: 30px;
     padding: 10px 30px;
     border-radius: 6px;
-    font-size: clamp(12px, 4vw, 16px);
+    font-size: clamp(16px, 4vw, 16px);
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 
 .align_left {
     float: left;

@@ -1,3 +1,10 @@
+:root {
+    --main-color: #1F2B46;
+    --light-main: #2D3C5A;
+    --secondary-color: #1e556f;
+    --tertiary-color: #DEB841;
+}
+
 hr {
     width: 40%;
 }
@@ -43,23 +50,27 @@ h4 {
 
 #general_info_sec_1 {
     padding-top: 3%;
-    padding-bottom: 1%;
+    padding-bottom: 0%;
 }
 
 #general_info_sec_2 {
     padding-top: 0px;
-    padding-bottom: 2%;
+    padding-bottom: 3%;
 }
 
 #services_button {
-    background-color: #366E88;
-    border: 1px solid #91C9FF;
-    outline: none;
-    transition: 1s ease-in-out;
-    color: #dedede;
+    background-color: white;
+    border: solid 2px var(--secondary-color);
+    transition: 0.5s ease-in-out;
+    color: var(--secondary-color);
     width: 286px;
     height: 52px;
     position: absolute;
+}
+
+#services_button:hover {
+    background-color: var(--secondary-color);
+    color: white;
 }
 
 .image {
