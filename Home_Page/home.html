@@ -4,11 +4,13 @@
 <head>
     <link rel="stylesheet" href="styles_home.css">
     <link rel="stylesheet" href="global_styles.css">
+    <script src="burger_menu.js"></script>
     <title>Brad Friesen: Lawyer & Notary</title>
     <link rel="icon" type="image/x-icon" href="../Images/BrowserLogo.ico">
 </head>
 
-<div id="nav_bar">
+
+<div class="full-nav" id="nav_bar">
     <nav>
         <ul>
             <li>
@@ -17,11 +19,20 @@
                     <li id="logo_descr">Lawyer & Notary</li>
                 </ul>
             </li>
-            <li class="nav_list"> <a class="nav_option active" href="home.html"> Welcome</a> </li>
-            <li class="nav_list"> <a class="nav_option" href="about.html"> About Brad</a> </li>
-            <li class="nav_list"> <a class="nav_option" href="services.html"> Services</a> </li>
-            <li class="nav_list"> <a class="nav_option" href="fees.html"> Fees and Resources</a> </li>
-            <li class="nav_list"> <a class="nav_option" href="contact.html"> Contact</a> </li>
+            <div class="main_nav_options">
+                <li class="nav_list"> <a class="nav_option active" href="home.html"> Welcome</a> </li>
+                <li class="nav_list"> <a class="nav_option" href="about.html"> About Brad</a> </li>
+                <li class="nav_list"> <a class="nav_option" href="services.html"> Services</a> </li>
+                <li class="nav_list"> <a class="nav_option" href="fees.html"> Fees and Resources</a> </li>
+                <li class="nav_list"> <a class="nav_option" href="contact.html"> Contact</a> </li>
+            </div>
+            <li class="nav_list"> <a onclick="makeResponsive()" class="burger-menu">
+                    <div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </a>
         </ul>
     </nav>
 </div>
