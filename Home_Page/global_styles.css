@@ -62,7 +62,7 @@ a:active {
 }
 
 .burger-menu {
-    width: 30px;
+    width: 35px;
     height: 20px;
     position: relative;
     cursor: pointer;
@@ -117,6 +117,11 @@ a:active {
         position: relative;
     }
 
+    /* nav options must be set to opacity 0 for transition effect */
+    .main_nav_options {
+        opacity: 0;
+    }
+
     #nav_bar.responsive .main_nav_options {
         background-color: #2D3C5A;
         display: block;
@@ -129,7 +134,7 @@ a:active {
 
     /* Animation for opening the menu */
     .responsive .burger-menu .line:nth-child(1) {
-        transform: translateY(7px) rotate(45deg);
+        transform: translateY(9px) rotate(45deg);
     }
 
     .responsive .burger-menu .line:nth-child(2) {
@@ -152,13 +157,11 @@ a:active {
     .full-nav .burger-menu .line:nth-child(3) {
         transform: translateY(0) rotate(0);
     }
-
 }
 
 .main_nav_options {
     float: left;
     transition: opacity 1s ease;
-    opacity: 0;
 }
 
 
