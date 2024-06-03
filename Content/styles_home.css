@@ -88,3 +88,65 @@ h4 {
 ul {
     color: #dfdfdf;
 }
+
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 1024px) {
+    .title {
+        font-size: 3.5vw;
+        width: 100%;
+        margin: 20px 10%;
+        padding-left: 5%;
+    }
+
+    .image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .image img {
+        width: 70%;
+    }
+
+    .general_info p {
+        width: 90%;
+        padding: 0 5%;
+    }
+
+    #services_button {
+        width: 80%;
+        position: static;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 4vw;
+        text-align: left;
+        margin: 10px 10%;
+    }
+
+    .image img {
+        width: 80%;
+    }
+
+    .general_info p {
+        font-size: 14px;
+    }
+
+    #services_button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 6vw;
+
+    }
+
+    .general_info p {
+        font-size: 12px;
+    }
+}
