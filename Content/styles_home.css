@@ -14,7 +14,7 @@ hr {
     margin: 40px 0% 40px 10%;
     padding-left: 2%;
     font-size: 2.3vw;
-    width: 30%;
+    /* width: 30%; */
     float: inline-start;
     border-left: solid 2px var(--tertiary-color);
     line-height: 250%;
@@ -28,6 +28,7 @@ h4 {
 .main_content {
     display: inline-block;
     margin: 9% 0%;
+    width: 100%;
 }
 
 .general_info {
@@ -76,26 +77,68 @@ h4 {
 .image {
     width: 50%;
     float: inline-end;
-    margin: 0%;
+    margin: 0% 2%;
     padding: 0%;
+    display: flex;
     justify-content: center;
 }
 
 #brad_friesen_home {
     width: 80%;
+    /* text-align: center; */
+    float: right;
 }
 
 ul {
     color: #dfdfdf;
 }
 
+/* Footer styling */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: var(--main-color);
+    color: #d9d9d9;
+    padding: 0px 40px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 40px;
+}
+
+#contact-me {
+    text-align: left;
+}
+
+#contact-details {
+    display: flex;
+    align-items: center;
+}
+
+#contact_list {
+    margin-right: 20px;
+    text-align: right;
+}
+
+#location-details {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+#location-icon {
+    margin-right: 10px;
+}
 
 /* Media Queries for Responsive Design */
 @media screen and (max-width: 1024px) {
     .title {
         font-size: 3.5vw;
-        width: 100%;
-        margin: 20px 10%;
+        width: 30%;
+        margin: 15px 8%;
         padding-left: 5%;
     }
 
@@ -124,7 +167,7 @@ ul {
     .title {
         font-size: 3.5vw;
         text-align: left;
-        margin: 20px 10%;
+        margin: 15px 8%;
     }
 
     .image img {
@@ -140,8 +183,34 @@ ul {
     }
 
     .footer {
-        font-size: 12px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
+
+    .footer-section {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    #contact-details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact_list {
+        margin-right: 0;
+    }
+
+    #location-details {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #location-icon {
+        margin-right: 0;
+    }
+
 }
 
 @media screen and (max-width: 480px) {

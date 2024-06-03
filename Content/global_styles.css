@@ -284,19 +284,3 @@ img {
     align-items: center;
     margin: 20px;
 }
-
-
-/* Additional Media Queries for Footer */
-@media screen and (max-width: 768px) {
-    .footer {
-        font-size: 16px;
-    }
-
-    #contact-me h4 {
-        font-size: 20px;
-    }
-
-    #location_icon {
-        transform: scale(2, 2);
-    }
-}
