@@ -93,7 +93,6 @@ ul {
     color: #dfdfdf;
 }
 
-/* Footer styling */
 .footer {
     display: flex;
     justify-content: space-between;
@@ -111,6 +110,7 @@ ul {
 
 #contact-me {
     text-align: left;
+    margin-right: 10%;
 }
 
 #contact-details {
@@ -182,33 +182,9 @@ ul {
         width: 50%;
     }
 
-    .footer {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
     .footer-section {
-        width: 100%;
-        padding: 10px 0;
-    }
-
-    #contact-details {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #contact_list {
-        margin-right: 0;
-    }
-
-    #location-details {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #location-icon {
-        margin-right: 0;
+        justify-content: center;
+        padding: 10px;
     }
 
 }
