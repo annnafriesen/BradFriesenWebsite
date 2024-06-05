@@ -7,9 +7,10 @@
 
 .services_title {
     box-sizing: border-box;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin: 10% 10%;
-    height: 49vh;
 }
 
 img {
@@ -17,16 +18,21 @@ img {
 }
 
 .services_image {
-    float: right;
-    width: 60%;
+    width: 55%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .services_text {
-    width: 40%;
-    float: left;
+    width: 50%;
     color: #dedede;
     font-weight: 100;
-    /* text-align: center; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #areas_of_practice_button {
@@ -66,10 +72,6 @@ img {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 
-/* 
-#services_grid>li {
-    color: #d9d9d9;
-} */
 
 #services_grid ul {
     list-style: none;
@@ -79,4 +81,30 @@ img {
     padding-bottom: 2%;
     margin-bottom: 0%;
     border-bottom: solid 0.5px var(--tertiary-color);
+}
+
+
+/* Media query for screens larger than 1024px */
+@media (min-width: 1024px) {
+    .services_title {
+        flex-wrap: nowrap;
+        align-items: stretch;
+    }
+}
+
+/* Media query for screens smaller than 1024px */
+@media (max-width: 1024px) {
+    .services_title {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services_text {
+        width: 80%;
+    }
+
+    .services_image {
+        margin-top: 20px;
+        width: 100%;
+    }
 }
