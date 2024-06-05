@@ -10,25 +10,30 @@ img {
 }
 
 .about_brad {
-    /* width: 75%; */
     box-sizing: border-box;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 10% 10%;
-    height: 51vh;
+    height: auto;
 }
 
 .about_image {
     width: 33.3%;
-    float: left;
-    justify-content: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
 }
 
 .about_brad_text {
     width: 60%;
-    float: left;
     color: #dedede;
     font-weight: 100;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .sub_content .sub_content_heading {
@@ -112,4 +117,30 @@ img {
 .about_button {
     margin: 30px;
     padding-bottom: 60px;
+}
+
+
+/* Media query for screens larger than 1024px */
+@media (min-width: 1024px) {
+    .about_brad {
+        flex-wrap: nowrap;
+    }
+}
+
+/* Media query for screens smaller than 1024px */
+@media (max-width: 1024px) {
+    .about_brad {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_brad_text {
+        width: 100%;
+    }
+
+    .about_image {
+        margin-bottom: 20px;
+        width: 60%;
+        margin-top: 20px;
+    }
 }
