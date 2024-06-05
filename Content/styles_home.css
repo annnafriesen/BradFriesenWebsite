@@ -161,6 +161,10 @@ ul {
         position: static;
         margin: 20px auto;
     }
+
+    #contact_me {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px) {
