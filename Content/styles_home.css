@@ -100,17 +100,18 @@ ul {
     flex-wrap: wrap;
     background-color: var(--main-color);
     color: #d9d9d9;
-    padding: 0px 40px;
+    /* padding: 0px 40px; */
 }
 
 .footer-section {
     flex: 1;
     padding: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 #contact-me {
     text-align: left;
-    margin-right: 10%;
 }
 
 #contact-details {
@@ -119,7 +120,6 @@ ul {
 }
 
 #contact_list {
-    margin-right: 20px;
     text-align: right;
 }
 
