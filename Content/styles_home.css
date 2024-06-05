@@ -145,10 +145,6 @@ ul {
 }
 
 @media screen and (max-width: 480px) {
-    #logo li {
-        font-size: 5vw;
-    }
-
     .title {
         font-size: 6vw;
 
