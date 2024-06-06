@@ -97,21 +97,27 @@ img {
     .services_title {
         flex-direction: column;
         align-items: center;
+        margin: 0%;
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .services_image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .services_text {
         width: 80%;
-    }
-
-    .services_image {
-        margin-top: 20px;
-        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
 
 /* Media query for screens smaller than 509px */
 @media (max-width: 509px) {
-    .services_title {
+    /* .services_title {
         flex-direction: column;
         align-items: center;
         margin: 0%;
@@ -121,7 +127,6 @@ img {
 
     .services_image {
         width: 80%;
-        /* margin-bottom: 20px; */
         display: flex;
         justify-content: center;
     }
@@ -129,7 +134,7 @@ img {
     .services_text {
         width: 100%;
         text-align: center;
-    }
+    }  */
 
     #areas_of_practice_button {
         width: 100%;
