@@ -96,13 +96,13 @@ ul {
 #links_grid {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     padding: 30px;
 }
 
 a {
     color: #dedede;
-    font-size: clamp(16px, 16px, 20px);
+    font-size: clamp(16px, 3vw, 20px);
     cursor: pointer;
 }
 
@@ -166,7 +166,6 @@ a {
 
     #links_grid {
         margin: 20px;
-        width: 80%;
         justify-content: left;
     }
 }
@@ -176,5 +175,9 @@ a {
 @media (max-width: 509px) {
     #contact_button {
         width: 100%;
+    }
+
+    #links_grid {
+        width: 80%
     }
 }
