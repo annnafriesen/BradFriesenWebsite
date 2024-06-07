@@ -23,8 +23,7 @@ nav {
 
 }
 
-#nav_bar li,
-ul {
+#nav_bar li {
     padding: 0px 20px;
     display: inline;
 }
