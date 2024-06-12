@@ -34,7 +34,7 @@ h4 {
 .general_info {
     background-color: white;
     text-align: center;
-    padding: 2% 0% 4% 0%;
+    padding: 4% 0% 4% 0%;
 }
 
 .general_info p {
@@ -96,18 +96,17 @@ ul {
 .footer {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
     flex-wrap: wrap;
     background-color: var(--main-color);
     color: #d9d9d9;
-    /* padding: 0px 40px; */
 }
 
 .footer-section {
     flex: 1;
-    padding: 40px;
+    padding: 40px 0px;
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
 
 #contact-me {
@@ -189,6 +188,16 @@ ul {
     .footer-section {
         justify-content: center;
         padding: 10px;
+        align-items: center;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #location-details {
+        padding-left: 70px;
     }
 
 }
