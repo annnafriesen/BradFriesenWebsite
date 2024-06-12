@@ -27,13 +27,13 @@ h4 {
 
 .main_content {
     display: inline-block;
-    margin: 9% 0%;
+    padding: 9% 10%;
 }
 
 .general_info {
     background-color: white;
     text-align: center;
-    padding: 2% 0% 4% 0%;
+    padding: 3% 0% 7% 0%;
 }
 
 .general_info p {
@@ -74,10 +74,11 @@ h4 {
 }
 
 .image {
-    width: 50%;
+    width: 60%;
     float: inline-end;
     margin: 0%;
     padding: 0%;
+    display: flex;
     justify-content: center;
 }
 
