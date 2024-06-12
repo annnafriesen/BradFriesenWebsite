@@ -10,25 +10,30 @@ img {
 }
 
 .about_brad {
-    /* width: 75%; */
     box-sizing: border-box;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 10% 10%;
-    height: 51vh;
+    height: auto;
 }
 
 .about_image {
     width: 33.3%;
-    float: left;
-    justify-content: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
 }
 
 .about_brad_text {
     width: 60%;
-    float: left;
     color: #dedede;
     font-weight: 100;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .sub_content .sub_content_heading {
@@ -61,7 +66,6 @@ img {
 #contact {
     width: 30%;
     padding-top: 3%;
-    padding-bottom: 1%;
     text-align: center;
     color: #F0EFEF;
 }
@@ -71,6 +75,13 @@ img {
     justify-content: center;
 }
 
+.button_container {
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+
 #contact_me_button {
     background-color: var(--main-color);
     color: var(--tertiary-color);
@@ -78,7 +89,8 @@ img {
     transition: 0.5s ease-in-out;
     width: 286px;
     height: 52px;
-    position: absolute;
+    /* position: absolute; */
+    margin-bottom: 5%;
 }
 
 #contact_me_button:hover {
@@ -109,7 +121,47 @@ img {
     z-index: 3;
 }
 
-.about_button {
-    margin: 30px;
-    padding-bottom: 60px;
+
+/* Media query for screens larger than 1024px */
+@media (min-width: 1024px) {
+    .about_brad {
+        flex-wrap: nowrap;
+    }
+}
+
+/* Media query for screens smaller than 1024px */
+@media (max-width: 1024px) {
+    .about_brad {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0% 0%;
+        padding: 40px 20px;
+    }
+
+    .about_image {
+        width: 60%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about_brad_text {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Media query for screens smaller than 509px */
+@media (max-width: 509px) {
+    .button_container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #contact_me_button {
+        width: 50%;
+    }
+
 }

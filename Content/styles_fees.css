@@ -7,26 +7,33 @@
 
 .fees_title {
     box-sizing: border-box;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin: 10% 10%;
-    height: 51vh;
 }
 
 .fees_image {
-    float: inline-end;
-    width: 40%;
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fees_text {
     width: 50%;
-    float: left;
+    height: max-content;
     color: #dedede;
     font-weight: 100;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 img {
-    width: 40%;
-    float: right;
+    width: 80%;
 }
 
 .sub_content .sub_content_heading {
@@ -35,11 +42,10 @@ img {
 }
 
 #sub_content_text_container {
-    padding: 4%;
+    padding: 5%;
 }
 
 #sub_content_text_container * {
-    padding: 0%;
     margin: 0%;
 }
 
@@ -59,6 +65,10 @@ img {
 .center_content {
     display: flex;
     justify-content: center;
+}
+
+.subheading-inner-text {
+    padding: 40px;
 }
 
 #sub_content_line {
@@ -84,16 +94,16 @@ ul {
 }
 
 #links_grid {
-    display: grid;
-    grid-template: auto / 20% 20%;
-    margin: 3% 0% 0% 0%;
-    gap: 3%;
-    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 30px;
 }
 
 a {
     color: #dedede;
-    font-size: clamp(15px, 4vw, 20px);
+    font-size: clamp(16px, 3vw, 20px);
+    cursor: pointer;
 }
 
 
@@ -107,4 +117,67 @@ a {
 #contact_button:hover {
     background-color: var(--tertiary-color);
     color: var(--light-main);
+}
+
+
+/* Media query for screens larger than 1024px */
+@media (min-width: 1024px) {
+    .fees_title {
+        flex-wrap: nowrap;
+        align-items: stretch;
+    }
+
+    #links_grid {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}
+
+/* Media query for screens smaller than 1024px */
+@media (max-width: 1024px) {
+    .fees_title {
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .fees_image {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fees_text {
+        width: 80%;
+        text-align: center;
+    }
+
+    .content p {
+        width: 60%;
+    }
+
+    #sub_content_text_container {
+        padding: 10%;
+    }
+
+    #links_grid {
+        margin: 20px;
+        justify-content: left;
+    }
+}
+
+
+/* Media query for screens smaller than 509px */
+@media (max-width: 509px) {
+    #contact_button {
+        width: 100%;
+    }
+
+    #links_grid {
+        width: 80%
+    }
 }

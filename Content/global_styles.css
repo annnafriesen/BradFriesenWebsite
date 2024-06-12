@@ -8,11 +8,13 @@
 html {
     scroll-behavior: smooth;
     font-family: 'Times New Roman', Times, serif;
+    height: 100%;
 }
 
 body {
     background-color: var(--main-color);
     font-size: 16px;
+    height: 100%;
 }
 
 /* *** NAV BAR *** */
@@ -20,11 +22,11 @@ body {
 nav {
     display: block;
     margin-top: 2%;
+    height: 10vh;
 
 }
 
-#nav_bar li,
-ul {
+#nav_bar li {
     padding: 0px 20px;
     display: inline;
 }
@@ -95,76 +97,10 @@ a:active {
     display: none;
 }
 
-
-
-/* make sure nav bar becomes responsive when screen size is <1070 px */
-@media screen and (max-width: 1070px) {
-    #nav_bar .nav_option {
-        display: none;
-    }
-
-    #nav_bar .burger-menu {
-        float: right;
-        display: block;
-        position: absolute;
-        top: 10px;
-        right: 30px;
-    }
-
-    #nav_bar.responsive .nav_option {
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        position: relative;
-    }
-
-    /* nav options must be set to opacity 0 for transition effect */
-    .main_nav_options {
-        opacity: 0;
-    }
-
-    #nav_bar.responsive .main_nav_options {
-        background-color: #2D3C5A;
-        display: block;
-        width: 100%;
-        position: relative;
-        top: 20px;
-        opacity: 1;
-        border-radius: 10px;
-    }
-
-    /* Animation for opening the menu */
-    .responsive .burger-menu .line:nth-child(1) {
-        transform: translateY(9px) rotate(45deg);
-    }
-
-    .responsive .burger-menu .line:nth-child(2) {
-        opacity: 0;
-    }
-
-    .responsive .burger-menu .line:nth-child(3) {
-        transform: translateY(-7px) rotate(-45deg);
-    }
-
-    /* Animation for closing the menu */
-    .full-nav .burger-menu .line:nth-child(1) {
-        transform: translateY(0) rotate(0);
-    }
-
-    .full-nav .burger-menu .line:nth-child(2) {
-        opacity: 1;
-    }
-
-    .full-nav .burger-menu .line:nth-child(3) {
-        transform: translateY(0) rotate(0);
-    }
-}
-
 .main_nav_options {
     float: left;
     transition: opacity 1s ease;
 }
-
 
 img {
     box-shadow: 5px 5px 0px rgba(240, 239, 239, 0.75);
@@ -194,7 +130,7 @@ img {
 }
 
 .button {
-    margin: 30px;
+    /* margin: 30px; */
     padding: 10px 30px;
     border-radius: 6px;
     font-size: clamp(16px, 4vw, 16px);
@@ -307,7 +243,7 @@ img {
 }
 
 .subheading-inner-text {
-    padding: 3%;
+    padding: 5%;
     text-align: center;
     border-top: solid 0.2px #DEB841;
     border-bottom: solid 0.2px #DEB841;
@@ -317,7 +253,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
 }
 
 /* Media Queries for Responsive Design */
@@ -327,6 +262,73 @@ img {
     }
 }
 
+
+/* make sure nav bar becomes responsive when screen size is <1070 px */
+@media screen and (max-width: 1070px) {
+    #nav_bar .nav_option {
+        display: none;
+    }
+
+    #nav_bar .burger-menu {
+        float: right;
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 30px;
+    }
+
+    #nav_bar.responsive .nav_option {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    /* nav options must be set to opacity 0 for transition effect */
+    .main_nav_options {
+        opacity: 0;
+    }
+
+    #nav_bar.responsive .main_nav_options {
+        background-color: #2D3C5A;
+        display: block;
+        width: 100%;
+        position: relative;
+        top: 20px;
+        opacity: 1;
+        border-radius: 10px;
+    }
+
+    /* Animation for opening the menu */
+    .responsive .burger-menu .line:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .responsive .burger-menu .line:nth-child(2) {
+        opacity: 0;
+    }
+
+    .responsive .burger-menu .line:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+    }
+
+    /* Animation for closing the menu */
+    .full-nav .burger-menu .line:nth-child(1) {
+        transform: translateY(0) rotate(0);
+    }
+
+    .full-nav .burger-menu .line:nth-child(2) {
+        opacity: 1;
+    }
+
+    .full-nav .burger-menu .line:nth-child(3) {
+        transform: translateY(0) rotate(0);
+    }
+}
+
+
+
+/* Additional Media Queries for Footer */
 @media screen and (max-width: 768px) {
     .footer-section {
         justify-content: center;
@@ -342,5 +344,20 @@ img {
     #location-details {
         padding-left: 70px;
     }
+}
 
+/* make sure logo is smaller */
+@media screen and (max-width: 480px) {
+    #logo_name {
+        font-size: 23px;
+    }
+
+    #logo_descr {
+        font-size: 17px;
+    }
+
+    #logo {
+        margin-left: 0%;
+        padding-left: 0%;
+    }
 }
