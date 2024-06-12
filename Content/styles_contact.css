@@ -108,6 +108,9 @@ img {
     margin: 100px 0px;
     border-radius: 5%;
     transition: box-shadow 1s ease;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .contact-block:hover {
@@ -125,16 +128,25 @@ img {
 
 .bottom_layer {
     position: relative;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .top_layer {
     position: absolute;
     z-index: 1;
-    width: 100%;
-    top: 50%;
+    /* width: 100%;
+    top: 50%; */
 }
+
+.contact_icon {
+    width: 60%;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    position: relative;
+}
+
 
 .contact_option_heading {
     font-size: clamp(20px, 4.5vw, 35px);
