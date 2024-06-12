@@ -23,7 +23,7 @@
 
 .fees_text {
     width: 50%;
-    height: max-content;
+    /* height: max-content; */
     color: #dedede;
     font-weight: 100;
     box-sizing: border-box;

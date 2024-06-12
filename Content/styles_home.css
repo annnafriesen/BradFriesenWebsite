@@ -28,6 +28,7 @@ h4 {
 .main_content {
     display: inline-block;
     padding: 9% 10%;
+    width: 80%;
 }
 
 .general_info {
@@ -76,7 +77,6 @@ h4 {
 .image {
     width: 60%;
     float: inline-end;
-    margin: 0% 2%;
     padding: 0%;
     display: flex;
     justify-content: center;
