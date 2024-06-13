@@ -5,9 +5,14 @@
     --tertiary-color: #DEB841;
 }
 
+.flex {
+    display: flex;
+}
+
 .main_content {
     margin: 5% 10%;
     color: #dedede;
+    width: 100%;
 }
 
 .title_contact_container {
@@ -199,6 +204,14 @@ img {
 
     .title_contact_container {
         margin-bottom: 40px;
+    }
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
+        /* width: 100%; */
+        padding: 40px 40px;
     }
 }
 
