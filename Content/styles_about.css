@@ -6,7 +6,7 @@
 }
 
 img {
-    width: 70%;
+    width: 280px;
 }
 
 .about_brad {
@@ -162,6 +162,10 @@ img {
 
     #contact_me_button {
         width: 50%;
+    }
+
+    img {
+        width: 90%;
     }
 
 }
