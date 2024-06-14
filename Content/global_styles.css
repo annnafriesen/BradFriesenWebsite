@@ -21,9 +21,9 @@ body {
 
 nav {
     display: block;
-    margin-top: 2%;
+    margin-top: 3%;
     height: 10vh;
-
+    padding-left: 0px;
 }
 
 #nav_bar li {
@@ -34,6 +34,7 @@ nav {
 #nav_bar ul {
     list-style: none;
     text-align: center;
+    padding: 0%;
 }
 
 a:link {
@@ -336,8 +337,8 @@ img {
 @media screen and (max-width: 768px) {
     .footer-section {
         justify-content: center;
-        padding: 10px;
         align-items: center;
+        padding: 10px;
     }
 
     .footer {
@@ -345,8 +346,12 @@ img {
         justify-content: center;
     }
 
+    #footer-section-2 {
+        padding-right: 40px;
+    }
+
     #location-details {
-        padding-left: 70px;
+        padding-left: 30px;
     }
 }
 
