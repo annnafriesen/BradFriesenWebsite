@@ -66,7 +66,6 @@ h4 {
     color: var(--secondary-color);
     width: 286px;
     height: 52px;
-    position: absolute;
 }
 
 #services_button:hover {
@@ -114,12 +113,6 @@ ul {
         width: 90%;
         padding: 0 5%;
     }
-
-    #services_button {
-        width: 40%;
-        position: static;
-        margin: 20px auto;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -138,7 +131,7 @@ ul {
     }
 
     #services_button {
-        width: 50%;
+        margin-top: 20px;
     }
 
 }
@@ -151,5 +144,9 @@ ul {
 
     .general_info p {
         font-size: 16px;
+    }
+
+    #services_button {
+        width: 100%;
     }
 }
