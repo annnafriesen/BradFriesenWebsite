@@ -96,6 +96,11 @@ img {
     border-bottom: solid 0.5px var(--tertiary-color);
 }
 
+@media (min-width: 1522px) {
+    #services_grid .grid_square {
+        height: 60%;
+    }
+}
 
 /* Media query for screens larger than 1024px */
 @media (min-width: 1024px) {
