@@ -91,10 +91,13 @@ img {
     color: #dedede;
     margin: 0%;
     padding-top: 10%;
+    padding-left: 0%;
 }
 
-#location_icon {
+#contact_location_icon {
     float: right;
+    transform: scale(2, 2);
+    margin-top: 8px;
 }
 
 #contact-container {
