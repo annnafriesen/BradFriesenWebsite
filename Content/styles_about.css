@@ -41,11 +41,11 @@ img {
     padding-bottom: 0%;
 }
 
-#sub_content_text_container {
+.sub_content_text_container {
     padding: 5%;
 }
 
-#sub_content_text_container * {
+.sub_content_text_container * {
     padding: 0%;
     margin: 0%;
 }
@@ -89,8 +89,7 @@ img {
     transition: 0.5s ease-in-out;
     width: 286px;
     height: 52px;
-    /* position: absolute; */
-    margin-bottom: 5%;
+    margin-bottom: 20%;
 }
 
 #contact_me_button:hover {
@@ -151,6 +150,12 @@ img {
         width: 100%;
         text-align: center;
     }
+
+    .sub_content_text_container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
 }
 
 /* Media query for screens smaller than 509px */
@@ -161,7 +166,7 @@ img {
     }
 
     #contact_me_button {
-        width: 50%;
+        width: 100%;
     }
 
     img {
