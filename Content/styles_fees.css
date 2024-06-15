@@ -41,16 +41,8 @@ img {
     padding-bottom: 0%;
 }
 
-#sub_content_text_container {
-    padding: 5%;
-}
-
 #sub_content_text_container * {
     margin: 0%;
-}
-
-.content p {
-    width: 50%;
 }
 
 #commitment {
@@ -72,9 +64,8 @@ img {
 }
 
 #sub_content_line {
-    position: absolute;
-    z-index: 2;
-    width: 80%;
+    margin: 0% 100px;
+    padding: 5%;
     height: 100%;
     left: 50px;
     border-left: solid 2px var(--tertiary-color);
