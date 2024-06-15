@@ -173,4 +173,7 @@ img {
         width: 90%;
     }
 
+    #sub_content_line {
+        left: 30px;
+    }
 }

@@ -7,6 +7,7 @@
 
 .stack-flex {
     display: flex;
+    width: 100%;
 }
 
 .main_content {
@@ -213,7 +214,7 @@ img {
         flex-direction: column;
         align-items: center;
         margin: 0%;
-        /* width: 100%; */
+        width: 90%;
         padding: 40px 40px;
     }
 }
@@ -225,5 +226,9 @@ img {
 
     .contact_icon {
         width: 47%;
+    }
+
+    .stack-flex {
+        width: 80%;
     }
 }
