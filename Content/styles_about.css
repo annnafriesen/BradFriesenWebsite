@@ -35,18 +35,13 @@ img {
     justify-content: center;
 }
 
-/* since more text in About page, decrease padding */
-.subheading-inner-text {
-    padding: 5% !important;
-}
-
 .sub_content .sub_content_heading {
     margin-bottom: 0%;
     padding-bottom: 0%;
 }
 
 .sub_content_text_container {
-    padding: 5%;
+    padding: 7% 5%;
 }
 
 .sub_content_text_container * {
