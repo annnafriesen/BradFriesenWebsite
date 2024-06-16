@@ -110,13 +110,13 @@ img {
 
 
 .header {
-    font-size: clamp(20px, 4.5vw, 33px);
+    font-size: clamp(20px, 4vw, 33px);
     font-weight: 530;
     margin-top: 0%;
 }
 
 .sub-text {
-    font-size: clamp(16px, 3vw, 22px);
+    font-size: clamp(16px, 3vw, 20px);
     font-weight: 400;
 }
 
@@ -248,10 +248,18 @@ img {
 }
 
 .subheading-inner-text {
-    padding: 5%;
+    height: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10%;
     text-align: center;
     border-top: solid 0.2px #DEB841;
     border-bottom: solid 0.2px #DEB841;
+}
+
+.subheading-inner-text .header {
+    margin: 0%;
 }
 
 .button_container {
@@ -267,6 +275,12 @@ img {
     }
 }
 
+@media (min-width: 2000px) {
+    .subheading-inner-text {
+        padding: 15%;
+    }
+
+}
 
 /* make sure nav bar becomes responsive when screen size is <1070 px */
 @media screen and (max-width: 1070px) {

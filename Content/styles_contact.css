@@ -21,16 +21,16 @@
 }
 
 img {
-    width: 90%;
+    width: 100%;
 }
 
 .about_office {
     box-sizing: border-box;
     display: flex;
+    align-items: stretch;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0% 10% 20% 10%;
-    height: auto;
 }
 
 .about_office_image {
@@ -42,13 +42,20 @@ img {
 }
 
 .about_office_text {
-    width: 30%;
+    width: 35%;
     color: #dedede;
     font-weight: 100;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+}
+
+#about_office_list_options ul {
+    text-align: left;
+}
+
+.subheading-inner-text {
+    padding: 5%;
 }
 
 .map_container {
@@ -183,7 +190,6 @@ img {
     .about_office_image {
         width: 80%;
         margin-bottom: 40px;
-        /* margin-top: 20px; */
         display: flex;
         justify-content: center;
     }
@@ -191,10 +197,6 @@ img {
     .about_office_text {
         width: 80%;
         text-align: center;
-    }
-
-    #about_office_list_options {
-        text-align: left;
     }
 
     #contact-container {

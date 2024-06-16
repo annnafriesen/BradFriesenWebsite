@@ -14,7 +14,7 @@
 }
 
 .fees_image {
-    width: 50%;
+    width: 55%;
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -27,7 +27,6 @@
     font-weight: 100;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
     justify-content: center;
 }
 

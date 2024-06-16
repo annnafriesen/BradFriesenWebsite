@@ -6,20 +6,20 @@
 }
 
 img {
-    width: 280px;
+    width: 300px;
 }
 
 .about_brad {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
+    align-items: stretch;
     justify-content: space-between;
-    margin: 10% 10%;
-    height: auto;
+    padding: 10% 10%;
 }
 
 .about_image {
-    width: 28%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,8 +32,12 @@ img {
     font-weight: 100;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+}
+
+/* since more text in About page, decrease padding */
+.subheading-inner-text {
+    padding: 5% !important;
 }
 
 .sub_content .sub_content_heading {
