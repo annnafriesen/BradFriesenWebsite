@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 11% 10%;
+    padding: 10% 10%;
 }
 
 .fees_image {
@@ -175,5 +175,12 @@ a {
     #sub_content_line {
         margin: 0px 20px;
         padding: 10%;
+    }
+}
+
+/* adjust padding so content is centred in viewport */
+@media (max-height: 685px) {
+    .fees_title {
+        padding: 7% 10%;
     }
 }

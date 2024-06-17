@@ -176,3 +176,10 @@ img {
         left: 30px;
     }
 }
+
+/* adjust padding so content is centred in viewport */
+@media (max-height: 685px) {
+    .about_brad {
+        padding: 6% 10%;
+    }
+}
