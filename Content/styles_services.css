@@ -163,7 +163,7 @@ img {
 /* adjust padding so content is centred in viewport */
 @media (max-height: 685px) {
     .services_title {
-        padding: 9% 10%;
+        padding: 9% 5%;
         width: 100%;
     }
 }

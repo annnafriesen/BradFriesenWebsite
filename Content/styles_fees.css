@@ -181,7 +181,7 @@ a {
 /* adjust padding so content is centred in viewport */
 @media (max-height: 685px) {
     .fees_title {
-        padding: 7% 10%;
+        padding: 7% 5%;
         width: 100%;
     }
 }
