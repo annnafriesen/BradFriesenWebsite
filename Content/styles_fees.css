@@ -182,5 +182,6 @@ a {
 @media (max-height: 685px) {
     .fees_title {
         padding: 7% 10%;
+        width: 100%;
     }
 }

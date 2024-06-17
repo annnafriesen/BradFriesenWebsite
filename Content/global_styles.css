@@ -17,8 +17,18 @@ body {
     height: 100%;
 }
 
-/* *** NAV BAR *** */
+img {
+    box-shadow: 5px 5px 0px rgba(240, 239, 239, 0.75);
+    border: solid 1px rgba(240, 239, 239);
+}
 
+.header {
+    font-size: clamp(20px, 4vw, 33px);
+    font-weight: 530;
+    margin-top: 0%;
+}
+
+/* *** NAV BAR *** */
 nav {
     display: block;
     margin-top: 3%;
@@ -93,7 +103,6 @@ a:active {
     bottom: 0;
 }
 
-
 .full-nav .burger-menu {
     display: none;
 }
@@ -103,17 +112,6 @@ a:active {
     transition: opacity 1s ease;
 }
 
-img {
-    box-shadow: 5px 5px 0px rgba(240, 239, 239, 0.75);
-    border: solid 1px rgba(240, 239, 239);
-}
-
-
-.header {
-    font-size: clamp(20px, 4vw, 33px);
-    font-weight: 530;
-    margin-top: 0%;
-}
 
 .sub-text {
     font-size: clamp(16px, 3vw, 20px);

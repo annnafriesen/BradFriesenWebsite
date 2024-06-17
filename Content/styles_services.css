@@ -164,5 +164,6 @@ img {
 @media (max-height: 685px) {
     .services_title {
         padding: 9% 10%;
+        width: 100%;
     }
 }
