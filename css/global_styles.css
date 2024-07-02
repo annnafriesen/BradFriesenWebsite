@@ -24,14 +24,14 @@ img {
 
 .header {
     font-size: clamp(20px, 4vw, 33px);
-    font-weight: 530;
+    /* font-weight: 530; */
     margin-top: 0%;
 }
 
 /* *** NAV BAR *** */
 nav {
     display: block;
-    margin-top: 3%;
+    margin-top: 2%;
     height: 10vh;
     padding-left: 0px;
 }
@@ -120,7 +120,7 @@ a:active {
 
 .sub_content_heading {
     font-size: clamp(18px, 3.5vw, 25px);
-    font-weight: 550;
+    /* font-weight: 550; */
 }
 
 .image_container {
@@ -129,7 +129,6 @@ a:active {
 }
 
 .button {
-    /* margin: 30px; */
     padding: 10px 30px;
     border-radius: 6px;
     font-size: clamp(16px, 4vw, 16px);
