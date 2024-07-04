@@ -265,6 +265,11 @@ a:active {
     align-items: center;
 }
 
+.phone-number {
+    color: white;
+    text-decoration: none;
+}
+
 /* Media Queries for Responsive Design */
 @media screen and (max-width: 1024px) {
     #contact_me {
