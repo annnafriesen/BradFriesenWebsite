@@ -224,7 +224,7 @@ a:active {
     color: white;
 }
 
-#contact-me h4 {
+#contact-me h3 {
     padding-bottom: 10px;
     border-bottom: 2px solid var(--tertiary-color);
     width: 100%;
@@ -269,6 +269,10 @@ a:active {
 @media screen and (max-width: 1024px) {
     #contact_me {
         width: 100%;
+    }
+
+    .subheading-inner-text {
+        height: auto;
     }
 }
 

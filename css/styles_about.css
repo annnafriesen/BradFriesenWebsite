@@ -184,6 +184,10 @@ img {
     #contact {
         width: 60%;
     }
+
+    .about_brad {
+        padding: 5% 5% !important;
+    }
 }
 
 /* adjust padding so content is centred in viewport */

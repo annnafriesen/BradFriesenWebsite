@@ -158,10 +158,15 @@ img {
     #areas_of_practice_button {
         width: 100%;
     }
+
+    .services_title {
+        padding: 10% 0% !important;
+    }
+
 }
 
 /* adjust padding so content is centred in viewport */
-@media (max-height: 685px) {
+@media (min-height: 685px) {
     .services_title {
         padding: 9% 5%;
         width: 100%;

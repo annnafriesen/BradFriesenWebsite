@@ -92,10 +92,15 @@ ul {
 
 /* Media Queries for Responsive Design */
 @media screen and (max-width: 1024px) {
+    .main_content {
+        width: 80%;
+        padding: 0%;
+    }
+
     .title {
         font-size: 3.5vw;
         width: 30%;
-        margin: 15px 8%;
+        margin: 15px 9%;
         padding-left: 5%;
     }
 
@@ -105,7 +110,7 @@ ul {
     }
 
     .image img {
-        width: 70%;
+        width: 100%;
     }
 
     .general_info p {
@@ -118,11 +123,6 @@ ul {
     .title {
         font-size: 3.5vw;
         text-align: left;
-        margin: 15px 8%;
-    }
-
-    .image img {
-        width: 80%;
     }
 
     .general_info p {
@@ -148,6 +148,7 @@ ul {
     #services_button {
         width: 100%;
     }
+
 }
 
 /* adjust padding so content is centred in viewport */
