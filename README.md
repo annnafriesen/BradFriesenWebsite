@@ -9,7 +9,7 @@ I wanted to create something that reflected his professionalism and expertise, s
 I also wanted to create something that would teach me something new and challenge my technical skills, something that I was proud to have built.  
   
 The end product, this code, is a few months of late nights, lots of "inspect element", and learning how to create a unique design that matches the integrity of an individual. 
-Unlike some technical projects, this website was personal. My dad works harder than anyone I know, so I wanted to build something that was beautiful for him. 
+Unlike some technical projects, this website was personal. My dad works harder than anyone I know, so I wanted to build something that reflected all his hard work.
 
 ### 🖋️ __My Process__
 I started this project with no knowledge of HTML, CSS or JavaScript. Luckily, the start of this project coincided with my first co-op at UBC EdTech which 
